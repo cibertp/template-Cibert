@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+  background-color: #fff; 
+    width: 90%;
+    align-content: center;
+    margin: auto;
+    min-width: 300px;
+    
+}header{
+    background-color: rgb(69,69,69); 
+    color: #fff;
+    text-align: center;
+    
+}
+h1{
+    text-align: left;
+    padding: 20px 20px;
+    display: inline-block;
+    font-family: sans-serif;
+    
+}
+nav {
+    background-color: #fff;
+    display: inline-block;      
+     margin-top: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+nav ul{
+    list-style:none;/*quita los puntos*/
+    background-color: ;
+}
+
+nav ul li {
+    background-color: #f5f4f4;
+    min-width:75px;
+    height:100%;
+    padding: 20px;
+    float: left;
+    text-align:center;
+}
+a{
+    text-decoration: none;/*quita el subrrayado*/
+    color: #000;
+     font-size: 1.5em;
+}
+nav ul li:hover{
+   background-color:#9e9898; 
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+   
+    
+}
+nav ul li a:hover{
+    
+    color: #fff;
+}
+#banner{
+    background-color: rgb(115,178,175);
+}
+.imgBanner{
+    width: 28%;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+    
+}
+.artBanner{
+
+    text-align: center;
+    padding: 20px;
+    width: 70%;    
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+  
+}
+sectionPrincipal{
+    width: 100%;
+}
+
+.articlePrincipal{
+    vertical-align: top;
+    
+    display: inline-block;
+    width: 32%;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    
+}
+.imgArticlePrincipal{
+    align-content: center;
+    width: 30%;
+    padding-left: 90px;
+}
+
+footer{
+    background-color: rgb(69,69,69);
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+
+
+}
